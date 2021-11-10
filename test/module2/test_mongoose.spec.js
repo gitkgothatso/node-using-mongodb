@@ -16,7 +16,7 @@ describe("Mongo tests @mongo", function () {
     it("Mongoose connected", function (done) {
         try {
             expect(fs.readFileSync('index.js').toString())
-            .to.contain("mongoose.connect('mongodb://localhost/productsdb'")
+            .to.contain("mongoose.connect('mongodb+srv://adminuser:mniks@MDB90@cluster0.1hs7w.mongodb.net/productsdb?retryWrites=true&w=majority'")
             done();   
         } catch (error) {
             done(new Error("No connection to Mongo detected"));
