@@ -5,7 +5,7 @@ const app = express();
 const PORT = 4000;
 
 const uri =
-    "mongodb+srv://adminuser:mniks@MDB90@cluster0.1hs7w.mongodb.net/productsdb?retryWrites=true&w=majority";
+    'mongodb+srv://adminuser:mniks@MDB90@cluster0.1hs7w.mongodb.net/productsdb?retryWrites=true&w=majority';
 
 mongoose.Promise = global.Promise;
 
