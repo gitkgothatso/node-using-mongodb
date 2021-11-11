@@ -1,5 +1,5 @@
 import express from 'express';
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 const routes = require('./src/routes/routes');
 
 const app = express();
